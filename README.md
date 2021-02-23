@@ -14,6 +14,11 @@ In addition to rationalizing ticket pricing, this analysis will explore several 
 ### Problem Statement
 How can Big Mountain Resort restructure their ticket pricing model to offset their new (and ongoing) $1.54M lift operating cost by understanding and maximizing their facility investment strategy before the start of next ski season? 
 
+
+### Conclusions 
+
+Summary of the analysis and an executive summary can be found in the summary document folder. 
+
 ### DataScienceGuidedCapstone
 
 This project was part of the Springboard Data Science Curriculum and was focused on applying the Data Science Method to a real world problem.   
