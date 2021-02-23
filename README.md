@@ -1,35 +1,22 @@
-# DataScienceGuidedCapstone
+# Big Mountain Ski Resort Pricing Model
 
-Hello students!
-Welcome to the Data Science Guided Capstone! 
+Big Mountain Resort (BMR), a ski resort located in Montana, offers spectacular views of Glacier National Park and Flathead National Forest. Every year about 350,000 people ski or snowboard at Big Mountain.  The resort offers a vertical drop of 2353 feet, 105 runs serviced by 14 chair lifts including 3 fast quads and 600 acres of snowmaking to ensure snow cover. 
+Big Mountain Resort recently implemented a new chair lift to increase distribution of visitors across the mountain. To stay profitable BMR must offset the additional $1.5M/season operating cost for the lift through cost savings or increased revenue. Historically, BMR has charged a premium for its lift tickets compared to the average price of resorts in its market segment without fully understanding which aspect of their facilities provide the most value to customers.  BMR would like to adopt a data driven business strategy allowing them to rationalize higher ticket prices, strategically invest in facilities, and maximize their profitability.  
 
-## Getting Started
+In addition to rationalizing ticket pricing, this analysis will explore several scenarios to add additional value or remove facilities that are less profitable.   
 
-Start by forking this repository to your personal GitHub account and cloning the fork to your local machine. 
+1.	Permanently closing up to 10 of the least used runs. This does not impact any other resort statistics.
+2.	Increase the vertical drop by adding a run to a point 150 feet lower down but requiring the installation of an additional chair lift to bring skiers back up, without additional snow making coverage
+3.	Same as number 2, but adding 2 acres of snow making cover
+4.	Increase the longest run by 0.2 mile to boast 3.5 miles length, requiring an additional snow making coverage of 4 acres
 
-**Note**: If forking and cloning a repo is new to you and/or github is new to you then it is strongly suggested to use [GitHub desktop](https://desktop.github.com/) and follow instructions in the docs [here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop).
 
-From https://github.com/springboard-curriculum/DataScienceGuidedCapstone press the green "code" dropdown and then press "Open with GitHub Desktop". This will fork the springboard repository into your own github account and then clone that fork to your local machine - it is in here that you will do your work and push your changes back to your fork of the repo in your own github account. 
+### Problem Statement
+How can Big Mountain Resort restructure their ticket pricing model to offset their new (and ongoing) $1.54M lift operating cost by understanding and maximizing their facility investment strategy before the start of next ski season? 
 
-You will find the notebooks in the Notebooks/ directory. 
+### DataScienceGuidedCapstone
 
-You will find instructions on how to complete and submit each step of the Guided Capstone in the course materials. Each subunit will focus on one step of the Capstone, corresponding to a step of the Data Science Method. Find the Jupyter Notebook corresponding to the subunit you are working on, and open it. Follow along as you are guided through the work, and fill in the blanks!
+This project was part of the Springboard Data Science Curriculum and was focused on applying the Data Science Method to a real world problem.   
 
-When you are done with the notebook, push the changes to your personal GitHub account.
 
-## Pipenv
 
-The `Pipefile` has all the python dependencies and requirements you should need. So you can use [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/) is you want to create a seperate python enviornment for this project. 
-
-To install pipenv see [here](https://pipenv-fork.readthedocs.io/en/latest/#install-pipenv-today).
-
-To create the env and install the required libraries (once you have pipenv installed) you can just do:
-```
-pipenv install
-```
-
-Then to activate the env and launch jupyter from this env you can do something like the below two commands:
-```
-pipenv shell
-jupyter lab
-```
